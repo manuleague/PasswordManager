@@ -1,0 +1,114 @@
+\doxysection{Manager\+Parole.\+Change\+Pass Class Reference}
+\hypertarget{class_manager_parole_1_1_change_pass}{}\label{class_manager_parole_1_1_change_pass}\index{ManagerParole.ChangePass@{ManagerParole.ChangePass}}
+
+
+Provides a user interface for setting or changing the master password.  
+
+
+Inheritance diagram for Manager\+Parole.\+Change\+Pass\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_manager_parole_1_1_change_pass}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_manager_parole_1_1_change_pass_a9abcdb79a53a7e3cec7060dcb03a3142}{Change\+Pass}} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance for first-\/time password setup. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_manager_parole_1_1_change_pass_a62b814cfb407672a5b13b50cf5181058}{Change\+Pass}} (string old\+Password)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance for changing an existing password. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_manager_parole_1_1_change_pass_a8b6a41ec7794cd15c3b486709344fbde}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_manager_parole_1_1_change_pass_a82066abc5fe2509a04f9dd14813926b9}{Created\+Password}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the newly created or changed master password. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides a user interface for setting or changing the master password. 
+
+This form handles two scenarios\+:
+\begin{DoxyEnumerate}
+\item First-\/time setup\+: When no master password exists
+\item Password change\+: When updating an existing master password
+\end{DoxyEnumerate}
+
+In password change scenarios, it also migrates encrypted data from the old password to the new password. The new password is stored in the Windows Registry along with a verification token. 
+
+\label{doc-constructors}
+\Hypertarget{class_manager_parole_1_1_change_pass_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_manager_parole_1_1_change_pass_a9abcdb79a53a7e3cec7060dcb03a3142}\index{ManagerParole.ChangePass@{ManagerParole.ChangePass}!ChangePass@{ChangePass}}
+\index{ChangePass@{ChangePass}!ManagerParole.ChangePass@{ManagerParole.ChangePass}}
+\doxysubsubsection{\texorpdfstring{ChangePass()}{ChangePass()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_change_pass_a9abcdb79a53a7e3cec7060dcb03a3142} 
+Manager\+Parole.\+Change\+Pass.\+Change\+Pass (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance for first-\/time password setup. 
+
+Displays informational message about creating the initial master password. Sets the form title to "{}\+Set Master Password"{}. \Hypertarget{class_manager_parole_1_1_change_pass_a62b814cfb407672a5b13b50cf5181058}\index{ManagerParole.ChangePass@{ManagerParole.ChangePass}!ChangePass@{ChangePass}}
+\index{ChangePass@{ChangePass}!ManagerParole.ChangePass@{ManagerParole.ChangePass}}
+\doxysubsubsection{\texorpdfstring{ChangePass()}{ChangePass()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_change_pass_a62b814cfb407672a5b13b50cf5181058} 
+Manager\+Parole.\+Change\+Pass.\+Change\+Pass (\begin{DoxyParamCaption}\item[{string}]{old\+Password}{}\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance for changing an existing password. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em old\+Password} & The current master password\\
+\hline
+\end{DoxyParams}
+
+
+Sets the form title to "{}\+Change Master Password"{} when old\+Password is provided. If old\+Password is null, the form is treated as first-\/time setup. 
+
+\label{doc-func-members}
+\Hypertarget{class_manager_parole_1_1_change_pass_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_manager_parole_1_1_change_pass_a8b6a41ec7794cd15c3b486709344fbde}\index{ManagerParole.ChangePass@{ManagerParole.ChangePass}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!ManagerParole.ChangePass@{ManagerParole.ChangePass}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_change_pass_a8b6a41ec7794cd15c3b486709344fbde} 
+override void Manager\+Parole.\+Change\+Pass.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-property-members}
+\Hypertarget{class_manager_parole_1_1_change_pass_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_manager_parole_1_1_change_pass_a82066abc5fe2509a04f9dd14813926b9}\index{ManagerParole.ChangePass@{ManagerParole.ChangePass}!CreatedPassword@{CreatedPassword}}
+\index{CreatedPassword@{CreatedPassword}!ManagerParole.ChangePass@{ManagerParole.ChangePass}}
+\doxysubsubsection{\texorpdfstring{CreatedPassword}{CreatedPassword}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_change_pass_a82066abc5fe2509a04f9dd14813926b9} 
+string Manager\+Parole.\+Change\+Pass.\+Created\+Password\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the newly created or changed master password. 
+
+This property is set after successful password change and can be used by the calling code to immediately authenticate the user. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Manager\+Parole/Change\+Pass.\+cs\item 
+Manager\+Parole/Change\+Pass.\+Designer.\+cs\end{DoxyCompactItemize}

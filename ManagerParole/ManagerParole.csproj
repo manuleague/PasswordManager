@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ManagerParole</RootNamespace>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DatabaseLibrary">
+      <HintPath>..\..\..\..\Desktop\DLL-uri\UpdatePassword\bin\Debug\net8.0\DatabaseLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="HasherLibrary">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\Hasher\Hasher\bin\Debug\net8.0\HasherLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="AddPassword">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\Hasher\AddPassword\bin\Debug\net8.0\AddPassword.dll</HintPath>
+    </Reference>
+    <Reference Include="RemovePassword">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\RemovePassword\bin\Debug\net8.0\RemovePassword.dll</HintPath>
+    </Reference>
+    <Reference Include="UpdatePassword">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\UpdatePassword\bin\Debug\net8.0\UpdatePassword.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandInterface">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\UpdatePassword\bin\Debug\net8.0\CommandInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="PasswordEntry">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\UpdatePassword\bin\Debug\net8.0\PasswordEntry.dll</HintPath>
+    </Reference>
+    <Reference Include="PasswordEvents">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\UpdatePassword\bin\Debug\net8.0\PasswordEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="PasswordRepository">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\UpdatePassword\bin\Debug\net8.0\PasswordRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="PasswordExceptionLibrary">
+      <HintPath>..\..\..\..\..\Desktop\DLL-uri\UpdatePassword\bin\Debug\net8.0\PasswordExceptionLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon.ico" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="Properties\Settings.settings" />
+    <None Include="App.config" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+  </ItemGroup>
+
+</Project>

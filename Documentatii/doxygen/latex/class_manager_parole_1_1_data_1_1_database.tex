@@ -1,0 +1,158 @@
+\doxysection{Manager\+Parole.\+Data.\+Database Class Reference}
+\hypertarget{class_manager_parole_1_1_data_1_1_database}{}\label{class_manager_parole_1_1_data_1_1_database}\index{ManagerParole.Data.Database@{ManagerParole.Data.Database}}
+
+
+Manages SQLite database operations for the password manager.  
+
+
+Inheritance diagram for Manager\+Parole.\+Data.\+Database\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_manager_parole_1_1_data_1_1_database}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_manager_parole_1_1_data_1_1_database_a075ef44255f253973d19a6caa6cc5426}{Database}} (string db\+Name="{}passwords.\+db"{})
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \doxylink{class_manager_parole_1_1_data_1_1_database}{Database} class. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_manager_parole_1_1_data_1_1_database_a30ddf5da4cfc4cf0045455663ea40e7a}{Execute\+Non\+Query}} (string sql, Dictionary$<$ string, object $>$ parameters=null)
+\begin{DoxyCompactList}\small\item\em Executes a SQL statement that does not return results (INSERT, UPDATE, DELETE) \end{DoxyCompactList}\item 
+SQLite\+Data\+Reader \mbox{\hyperlink{class_manager_parole_1_1_data_1_1_database_a14cdd51909fb6dd0ca9c877f8d40aa8f}{Execute\+Reader}} (string sql, Dictionary$<$ string, object $>$ parameters=null)
+\begin{DoxyCompactList}\small\item\em Executes a SQL query and returns a data reader. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_manager_parole_1_1_data_1_1_database_a6daae75b51225075672bd82697c710a1}{Execute\+Scalar}} (string sql, Dictionary$<$ string, object $>$ parameters=null)
+\begin{DoxyCompactList}\small\item\em Executes a SQL query and returns the first column of the first row. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_parole_1_1_data_1_1_database_aa8a04b9835c1e007ed606ff26b906c40}{Dispose}} ()
+\begin{DoxyCompactList}\small\item\em Releases all database resources. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages SQLite database operations for the password manager. 
+
+This sealed class handles all database interactions including\+:
+\begin{DoxyItemize}
+\item \doxylink{class_manager_parole_1_1_data_1_1_database}{Database} file creation and schema initialization
+\item Parameterized SQL command execution
+\item Connection management and resource disposal
+\item Error handling and exception propagation 
+\end{DoxyItemize}
+
+\label{doc-constructors}
+\Hypertarget{class_manager_parole_1_1_data_1_1_database_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_manager_parole_1_1_data_1_1_database_a075ef44255f253973d19a6caa6cc5426}\index{ManagerParole.Data.Database@{ManagerParole.Data.Database}!Database@{Database}}
+\index{Database@{Database}!ManagerParole.Data.Database@{ManagerParole.Data.Database}}
+\doxysubsubsection{\texorpdfstring{Database()}{Database()}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_data_1_1_database_a075ef44255f253973d19a6caa6cc5426} 
+Manager\+Parole.\+Data.\+Database.\+Database (\begin{DoxyParamCaption}\item[{string}]{db\+Name}{ = {\ttfamily "{}passwords.db"{}}}\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \doxylink{class_manager_parole_1_1_data_1_1_database}{Database} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em db\+Name} & Filename for the SQLite database (default\+: "{}passwords.\+db"{})\\
+\hline
+\end{DoxyParams}
+
+
+Creates or connects to an SQLite database file in the application\textquotesingle{}s current directory. Automatically initializes the database schema if creating a new database. 
+
+\label{doc-func-members}
+\Hypertarget{class_manager_parole_1_1_data_1_1_database_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_manager_parole_1_1_data_1_1_database_aa8a04b9835c1e007ed606ff26b906c40}\index{ManagerParole.Data.Database@{ManagerParole.Data.Database}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!ManagerParole.Data.Database@{ManagerParole.Data.Database}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_data_1_1_database_aa8a04b9835c1e007ed606ff26b906c40} 
+void Manager\+Parole.\+Data.\+Database.\+Dispose (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Releases all database resources. 
+
+Implements IDisposable pattern to ensure proper connection closure \Hypertarget{class_manager_parole_1_1_data_1_1_database_a30ddf5da4cfc4cf0045455663ea40e7a}\index{ManagerParole.Data.Database@{ManagerParole.Data.Database}!ExecuteNonQuery@{ExecuteNonQuery}}
+\index{ExecuteNonQuery@{ExecuteNonQuery}!ManagerParole.Data.Database@{ManagerParole.Data.Database}}
+\doxysubsubsection{\texorpdfstring{ExecuteNonQuery()}{ExecuteNonQuery()}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_data_1_1_database_a30ddf5da4cfc4cf0045455663ea40e7a} 
+int Manager\+Parole.\+Data.\+Database.\+Execute\+Non\+Query (\begin{DoxyParamCaption}\item[{string}]{sql}{, }\item[{Dictionary$<$ string, object $>$}]{parameters}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Executes a SQL statement that does not return results (INSERT, UPDATE, DELETE) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sql} & SQL command text\\
+\hline
+{\em parameters} & Dictionary of parameter names and values\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of rows affected
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \doxylink{class_manager_parole_1_1_exceptions_1_1_password_manager_exception}{Password\+Manager\+Exception}} & Wraps SQLite exceptions\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_manager_parole_1_1_data_1_1_database_a14cdd51909fb6dd0ca9c877f8d40aa8f}\index{ManagerParole.Data.Database@{ManagerParole.Data.Database}!ExecuteReader@{ExecuteReader}}
+\index{ExecuteReader@{ExecuteReader}!ManagerParole.Data.Database@{ManagerParole.Data.Database}}
+\doxysubsubsection{\texorpdfstring{ExecuteReader()}{ExecuteReader()}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_data_1_1_database_a14cdd51909fb6dd0ca9c877f8d40aa8f} 
+SQLite\+Data\+Reader Manager\+Parole.\+Data.\+Database.\+Execute\+Reader (\begin{DoxyParamCaption}\item[{string}]{sql}{, }\item[{Dictionary$<$ string, object $>$}]{parameters}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Executes a SQL query and returns a data reader. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sql} & SQL query text\\
+\hline
+{\em parameters} & Dictionary of parameter names and values\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+SQLite\+Data\+Reader for iterating query results
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \doxylink{class_manager_parole_1_1_exceptions_1_1_password_manager_exception}{Password\+Manager\+Exception}} & Wraps SQLite exceptions\\
+\hline
+\end{DoxyExceptions}
+
+
+The caller is responsible for properly disposing the returned reader. \Hypertarget{class_manager_parole_1_1_data_1_1_database_a6daae75b51225075672bd82697c710a1}\index{ManagerParole.Data.Database@{ManagerParole.Data.Database}!ExecuteScalar@{ExecuteScalar}}
+\index{ExecuteScalar@{ExecuteScalar}!ManagerParole.Data.Database@{ManagerParole.Data.Database}}
+\doxysubsubsection{\texorpdfstring{ExecuteScalar()}{ExecuteScalar()}}
+{\footnotesize\ttfamily \label{class_manager_parole_1_1_data_1_1_database_a6daae75b51225075672bd82697c710a1} 
+int Manager\+Parole.\+Data.\+Database.\+Execute\+Scalar (\begin{DoxyParamCaption}\item[{string}]{sql}{, }\item[{Dictionary$<$ string, object $>$}]{parameters}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Executes a SQL query and returns the first column of the first row. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sql} & SQL query text\\
+\hline
+{\em parameters} & Dictionary of parameter names and values\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Result as an integer value
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \doxylink{class_manager_parole_1_1_exceptions_1_1_password_manager_exception}{Password\+Manager\+Exception}} & Wraps SQLite exceptions\\
+\hline
+\end{DoxyExceptions}
+
+
+Primarily used for retrieving scalar values like COUNT() or last\+\_\+insert\+\_\+rowid() 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Manager\+Parole/Database.\+cs\end{DoxyCompactItemize}

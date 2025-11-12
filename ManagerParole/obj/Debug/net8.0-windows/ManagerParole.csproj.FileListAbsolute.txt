@@ -1,0 +1,86 @@
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.AssemblyReference.cache
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.ChangePass.resources
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Login.resources
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Manager.resources
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Properties.Resources.resources
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.GenerateResource.cache
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.AssemblyInfoInputs.cache
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.AssemblyInfo.cs
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.CoreCompileInputs.cache
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\ManagerParole.exe
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\ManagerParole.dll.config
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\ManagerParole.deps.json
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\ManagerParole.runtimeconfig.json
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\ManagerParole.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\ManagerParole.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\AddPassword.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\CommandInterface.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\HasherLibrary.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\PasswordEntry.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\PasswordEvents.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\PasswordExceptionLibrary.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\PasswordRepository.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\RemovePassword.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\UpdatePassword.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\DatabaseLibrary.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\HasherLibrary.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\AddPassword.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\RemovePassword.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\UpdatePassword.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\CommandInterface.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\PasswordEntry.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\PasswordEvents.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\PasswordRepository.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\PasswordExceptionLibrary.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\DatabaseLibrary.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerP.BE158A1B.Up2Date
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\refint\ManagerParole.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.pdb
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.genruntimeconfig.cache
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ref\ManagerParole.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\Sabin\Downloads\ManagerParole\ManagerParole\ManagerParole\ManagerParole\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.AssemblyReference.cache
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.ChangePass.resources
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Login.resources
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Manager.resources
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Properties.Resources.resources
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.GenerateResource.cache
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.AssemblyInfoInputs.cache
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.AssemblyInfo.cs
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.CoreCompileInputs.cache
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.dll
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\refint\ManagerParole.dll
+C:\Users\Sabin\Downloads\Folder Final\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.pdb
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.AssemblyReference.cache
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.ChangePass.resources
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Login.resources
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Manager.resources
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Properties.Resources.resources
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.GenerateResource.cache
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.AssemblyInfoInputs.cache
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.AssemblyInfo.cs
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.CoreCompileInputs.cache
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.dll
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\refint\ManagerParole.dll
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\Proiect Ip - Grupa 13-20251112T140943Z-1-001\Proiect Ip - Grupa 13\Proiect IP 2025 - Grupa 13\Folder Final\ManagerParole cu dll\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.pdb
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.AssemblyReference.cache
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.ChangePass.resources
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Login.resources
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Manager.resources
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.Properties.Resources.resources
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.GenerateResource.cache
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.AssemblyInfoInputs.cache
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.AssemblyInfo.cs
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.csproj.CoreCompileInputs.cache
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.dll
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\refint\ManagerParole.dll
+C:\Users\danal\Desktop\pt CV-20251112T113011Z-1-001\pt CV\ManagerParole\ManagerParole\obj\Debug\net8.0-windows\ManagerParole.pdb

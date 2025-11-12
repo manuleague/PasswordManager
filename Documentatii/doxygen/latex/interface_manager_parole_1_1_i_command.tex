@@ -1,0 +1,63 @@
+\doxysection{Manager\+Parole.\+ICommand Interface Reference}
+\hypertarget{interface_manager_parole_1_1_i_command}{}\label{interface_manager_parole_1_1_i_command}\index{ManagerParole.ICommand@{ManagerParole.ICommand}}
+
+
+Defines the command interface for the Command design pattern.  
+
+
+Inheritance diagram for Manager\+Parole.\+ICommand\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.048689cm]{interface_manager_parole_1_1_i_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_manager_parole_1_1_i_command_a4eff0427b52c9b6320f5071460717e1b}{Execute}} ()
+\begin{DoxyCompactList}\small\item\em Executes the command\textquotesingle{}s primary operation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_manager_parole_1_1_i_command_a69afbc747109a5927300a2212df4e988}{Undo}} ()
+\begin{DoxyCompactList}\small\item\em Reverts the effects of the Execute operation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Defines the command interface for the Command design pattern. 
+
+This interface provides the contract for command objects that encapsulate operations and allow for parameterization, queuing, logging, and undo functionality in the password manager application. 
+
+\label{doc-func-members}
+\Hypertarget{interface_manager_parole_1_1_i_command_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_manager_parole_1_1_i_command_a4eff0427b52c9b6320f5071460717e1b}\index{ManagerParole.ICommand@{ManagerParole.ICommand}!Execute@{Execute}}
+\index{Execute@{Execute}!ManagerParole.ICommand@{ManagerParole.ICommand}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily \label{interface_manager_parole_1_1_i_command_a4eff0427b52c9b6320f5071460717e1b} 
+void Manager\+Parole.\+ICommand.\+Execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Executes the command\textquotesingle{}s primary operation. 
+
+This method performs the action associated with the command, such as adding, removing, or updating password entries. 
+
+Implemented in \mbox{\hyperlink{class_manager_parole_1_1_add_password_command_ab881cdcc97fb1d2a7c1cb85e16d23ec2}{Manager\+Parole.\+Add\+Password\+Command}}, \mbox{\hyperlink{class_manager_parole_1_1_add_password_command_ab881cdcc97fb1d2a7c1cb85e16d23ec2}{Manager\+Parole.\+Add\+Password\+Command}}, \mbox{\hyperlink{class_manager_parole_1_1_remove_password_command_aff30d2c37e785e140964f9a573c0155d}{Manager\+Parole.\+Remove\+Password\+Command}}, and \mbox{\hyperlink{class_manager_parole_1_1_update_password_command_af5ec3ff7091a772c5d4b4ac9419e91cb}{Manager\+Parole.\+Update\+Password\+Command}}.
+
+\Hypertarget{interface_manager_parole_1_1_i_command_a69afbc747109a5927300a2212df4e988}\index{ManagerParole.ICommand@{ManagerParole.ICommand}!Undo@{Undo}}
+\index{Undo@{Undo}!ManagerParole.ICommand@{ManagerParole.ICommand}}
+\doxysubsubsection{\texorpdfstring{Undo()}{Undo()}}
+{\footnotesize\ttfamily \label{interface_manager_parole_1_1_i_command_a69afbc747109a5927300a2212df4e988} 
+void Manager\+Parole.\+ICommand.\+Undo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Reverts the effects of the Execute operation. 
+
+This method undoes the action performed by Execute, restoring the system to its previous state. Essential for implementing undo functionality in the application. 
+
+Implemented in \mbox{\hyperlink{class_manager_parole_1_1_add_password_command_ae923f438e3a780173e249a359fba11c1}{Manager\+Parole.\+Add\+Password\+Command}}, \mbox{\hyperlink{class_manager_parole_1_1_add_password_command_ae923f438e3a780173e249a359fba11c1}{Manager\+Parole.\+Add\+Password\+Command}}, \mbox{\hyperlink{class_manager_parole_1_1_remove_password_command_a497346287f48341132b5c642dc991bc0}{Manager\+Parole.\+Remove\+Password\+Command}}, and \mbox{\hyperlink{class_manager_parole_1_1_update_password_command_af96f733590231a622b59b34924513e24}{Manager\+Parole.\+Update\+Password\+Command}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Manager\+Parole/ICommand.\+cs\end{DoxyCompactItemize}
